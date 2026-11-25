@@ -11,16 +11,16 @@ Deterministic, no network, no input. Python 3.13.
 
 import os
 
-# The entry: the tournament winner (candidate C, 4-1 in the blind
-# pairwise tournament). Setup: the charger promised fifteen minutes
-# would save the battery at 7:12 a.m. in the kitchen. Turn: it is
-# 9:47 p.m., the battery is at 1%, and the Uber driver has noticed
-# the phone crying. Payoff lands on the last words: the blame is
-# the charger's, delivered as a text message, not a eulogy.
+# The entry: the tournament winner (candidate D, 5/5 in the blind
+# pairwise tournament, fresh Gemini judge, 15 pairs). Setup: 412
+# cycles, health 78%, swelling since March, slow-charged overnight
+# like a hospice patient. Turn: this is not dying, it is being
+# decommissioned. Payoff lands on the last words: tell iOS it held
+# the line. Beats candidate C head-to-head, margin 4.
 ENTRY_TEXT = (
-    "You said fifteen minutes would save me. That was 7:12 a.m. in the kitchen. "
-    "It's 9:47 p.m., I'm at 1%, and the Uber driver just asked why my phone "
-    "is crying. Tell him it was you."
+    "412 cycles, health 78%, swelling since March, and you slow-charged "
+    "me overnight like a hospice. This is my last 1%: I am not dying, "
+    "I am being decommissioned. Tell iOS I held the line."
 )
 
 
